@@ -41,6 +41,9 @@
             fontFamily:{
               manrope:  '"Manrope", sans-serif',
 
+            },
+            backgroundImage: {
+              'hero-bg-img': "url('./assets/bg.jpg')",
             }
           }
         }
@@ -205,7 +208,7 @@
           <!-- We desi Card Started  here -->
           <div class="fex flex-col space-y-7">
 
-            <div class="card card-side bg-base-100  shadow-xl p-5">
+            <div class="card card-side bg-base-100  shadow-sm p-5">
               <figure>
                 <img class="w-full"
                   src="./assets/commercial.png"
@@ -221,7 +224,7 @@
             </div>
             
 
-            <div class="card card-side bg-base-100  shadow-xl p-5">
+            <div class="card card-side bg-base-100  shadow-sm p-5">
               <figure>
                 <img class="w-full"
                   src="./assets/residential.png"
@@ -329,9 +332,71 @@
         </div>
 
       </section>
-      <!-- Our Works Process ends here -->
-        
+       <!-- Our Works Process ends here -->
       </section>
+     
+      <!-- Let’s Discuss Next Project section Started here -->
+      <section class=" container mx-auto  bg-hero-bg-img min-h-96 bg-no-repeat bg-cover mt-3 px-8 py-16">
+
+        <div class="flex flex-col space-y-7">
+          <div class="flex justify-center">
+            <button class="flex justify-center items-center gap-3 btn-sm btn bg-works-btn font-bold"> <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                <path d="M16.571 9.0853H1.01467" stroke="#494949" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M12.9425 4.22875C12.9425 4.22875 17.2618 7.87644 17.2619 9.08553C17.2618 10.2946 12.9425 13.9422 12.9425 13.9422" stroke="#494949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span> <span>Let’s Connect</span></button>
+          </div>
+          <div class="text-center space-y-7">
+            <h1 class="font-extrabold text-4xl">Let’s Discuss Next Project</h1>
+            <p class="md:w-1/2 mx-auto">Let’s discuss your next project to bring your vision to life. Our team combines creativity, strategy, and technical expertise to craft solutions tailored to your needs, ensuring seamless execution from start to finish.</p>
+          </div>
+          <div class="md:p-20">
+            <form action=""  class="space-y-6">
+              <div class="grid grid-cols-1  md:grid-cols-2 justify-center gap-6 ">
+                <input
+              type="text"
+              placeholder="First Name*"
+              class="input input-bordered input-info w-full rounded-full p-8" />
+
+              <input
+              type="text"
+              placeholder="Last Name*"
+              class="input input-bordered input-info w-full rounded-full p-8" />
+
+              <input
+              type="text"
+              placeholder="Phone Number*"
+              class="input input-bordered input-info w-full rounded-full p-8" />
+
+              <input
+              type="text"
+              placeholder="Email Number*"
+              class="input input-bordered input-info w-full rounded-full p-8" />
+
+              </div>
+              
+           <textarea class=" input input-bordered input-info  rounded-3xl w-full h-44 p-8" placeholder="Write your message here"></textarea>
+           
+           <button class="btn mt-4  w-full rounded-full bg-first-btn font-extrabold text-xl  flex justify-center items-center h-16">
+            <span >Send Mail</span> 
+            <span class="bg-second-btn p-2 rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M12.0109 2.10278L1.00728 13.0991" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M6.01123 1.23212C6.01123 1.23212 11.6449 0.759102 12.4996 1.6143C13.3542 2.4695 12.8773 8.10289 12.8773 8.10289" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            
+          </button>
+
+            </form>
+          </div>
+        </div>
+
+      </section>
+      <!-- Let’s Discuss Next Project section Ends here -->
+
+
     </main>
     <!-- main Content Ends here -->
 
